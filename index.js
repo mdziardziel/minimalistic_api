@@ -9,6 +9,10 @@ app.get("/", function(req, res) {
     res.json(users);
 })
 
+app.get("*", function(req, res) {
+    res.json({error: 'route not found'});
+ })
+
 app.listen(port, function(err) {
     console.log("running server on from port:::::::" + port);
 });
