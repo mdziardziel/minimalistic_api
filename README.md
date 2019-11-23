@@ -4,4 +4,4 @@ Minimalistic api using express js
 * install node
 * clone
 * `npm start`
-* visit http://localhost:3070/api/:table_name/:id
+* visit http://localhost:3070/api/:table_name/:id (i.e. http://localhost:3070/api/albums/ , http://localhost:3070/api/albums/1 )
